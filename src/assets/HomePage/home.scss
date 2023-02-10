@@ -1,0 +1,18 @@
+.home {
+    width: 100%;
+    display: flex;
+    &__sideNav {
+        padding: 30px 20px 20px 20px;
+        width: 15%;
+        height: 100vh;
+        border-right: 1px solid rgb(150, 150, 150);
+        &-logo {
+            font-size: 30px;
+            font-family: 'Dancing Script', cursive;
+        }
+    }
+
+    &__main {
+        width: 85%;
+    }
+}
